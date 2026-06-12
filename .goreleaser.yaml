@@ -6,7 +6,7 @@ before:
 
 builds:
   - id: gatherpipe-driver-dummy
-    binary: driver-dummy
+    binary: dummy-driver
     main: ./cmd/driver/main.go
     env:
       - CGO_ENABLED=0
