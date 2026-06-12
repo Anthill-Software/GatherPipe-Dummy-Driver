@@ -22,5 +22,6 @@ builds:
       - 6
 
 archives:
-  - format: binary
-    name_template: "{{ .Binary }}-{{ .Os }}-{{ .Arch }}{{ .Arm }}"
+  - name_template: "{{ .Binary }}-{{ .Os }}-{{ .Arch }}{{ .Arm }}"
+    formats:
+      - binary
